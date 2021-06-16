@@ -1,0 +1,31 @@
+{
+  "name": "@umbrellio/cofman",
+  "version": "1.0.0",
+  "description": "Node.js configuration engine",
+  "main": "lib/index.js",
+  "repository": "git@github.com:umbrellio/cofman.git",
+  "homepage": "https://github.com/umbrellio/cofman",
+  "author": "Aleksei Bespalov <nulldefiner@gmail.com>",
+  "keywords": [
+    "configuration",
+    "config",
+    "node",
+    "env",
+    "file",
+    "yaml",
+    "json"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
