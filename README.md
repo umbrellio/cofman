@@ -83,6 +83,7 @@ new FileSource(options)
 
 - `path: string` (required)  – path to config file
 - `parser: Parser` (optional, determinites by file extension) – parser to use for this file content
+- `failMissing: boolean` (optional, default: `false`) – fail when file missing or not
 
 You can use custom file parsers using following interface:
 

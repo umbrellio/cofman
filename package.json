@@ -1,6 +1,6 @@
 {
   "name": "@umbrellio/cofman",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Node.js configuration engine",
   "main": "lib/index.js",
   "repository": "git@github.com:umbrellio/cofman.git",
