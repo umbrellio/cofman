@@ -6,12 +6,13 @@
 Node.js configuration engine
 
 ```js
-const { Cofman, FileSource, EnvSource } = require("@umbrellio/cofman")
+const { Cofman, FileSource, EnvSourc, ObjectSource } = require("@umbrellio/cofman")
 
 const instance = new Cofman()
 
 instance.use(new FileSource({ path: "/path/to/file.yml" }))
 instance.use(new FileSource({ path: "/path/to/file.json" }))
+instance.use(new ObjectSource({ custom: "value" }))
 instance.use(new EnvSource({ prefix: "APP" }))
 
 const config = instance.parse()
@@ -87,6 +88,14 @@ interface Parser {
 
   parse(content: string): Object // takes file content and returns parsed object
 }
+```
+
+### ObjectSource
+
+Just your custom object
+
+```js
+new ObjectSource(object)
 ```
 
 ## Contributing
