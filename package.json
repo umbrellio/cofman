@@ -17,6 +17,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "lint": "eslint .",
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
@@ -26,6 +27,9 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.28.0",
+    "eslint-plugin-jest": "^24.3.6",
     "jest": "^27.0.4"
   }
 }
