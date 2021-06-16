@@ -1,5 +1,8 @@
 # Cofman
 
+[![Coverage Status](https://coveralls.io/repos/github/umbrellio/cofman/badge.svg?branch=master)](https://coveralls.io/github/umbrellio/cofman?branch=master)
+[![Build Status](https://github.com/umbrellio/cofman/actions/workflows/ci.yml/badge.svg)](https://github.com/umbrellio/cofman)
+
 Node.js configuration engine
 
 ```js
@@ -14,6 +17,12 @@ instance.use(new EnvSource({ prefix: "APP" }))
 const config = instance.parse()
 
 config.get("database.url")
+```
+
+## Install
+
+```sh
+$ yarn add @umbrellio/cofman
 ```
 
 ## Usage
