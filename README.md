@@ -49,7 +49,11 @@ const instance = new Cofman()
 
 ## Sources
 
-Cofman supports `EnvSource` and `FileSource` for getting values from env and files correspondingly.
+Cofman supports multiple sources for getting values in different ways.
+
+- [EnvSource](#envsource)
+- [FileSource](#filesource)
+- [ObjectSource](#objectsource)
 
 ### EnvSource
 
