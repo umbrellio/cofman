@@ -6,7 +6,7 @@
 Node.js configuration engine
 
 ```js
-const { Cofman, FileSource, EnvSource } = require("cofman")
+const { Cofman, FileSource, EnvSource } = require("@umbrellio/cofman")
 
 const instance = new Cofman()
 
